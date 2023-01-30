@@ -31,3 +31,19 @@ header > nav a:last-child {
     border-right: none;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(97, 107, 117);
+    border: 1px solid black;
+    border-radius: 0;
+    margin-right: 0;
+}
+
