@@ -39,17 +39,20 @@ body {
     margin-top: 175px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100%;
+    margin-bottom: 55px;
 }
 
 footer {
-    margin-top: auto;
+    position: fixed;
+    bottom: 0;
     text-align: center;
     padding: 10px 0;
     background-color: rgb(97, 107, 117);
     border: 1px solid black;
     border-radius: 0;
     margin-right: 0;
+    width: 96%;
 }
 
 body > section {
@@ -58,6 +61,8 @@ body > section {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+
 
 img {
     margin-top: 10px;
@@ -69,3 +74,4 @@ img {
 .grade {
     font-weight: bold;
 }
+
