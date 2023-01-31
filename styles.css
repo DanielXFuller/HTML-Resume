@@ -36,7 +36,7 @@ header > nav a:last-child {
 }
 
 body {
-    margin-top: 175px;
+    margin-top: 190px;
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -74,4 +74,19 @@ img {
 .grade {
     font-weight: bold;
 }
+
+ol {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    margin-bottom: 20px;
+}
+
+li h3, li h4, li p {
+    margin: 0;
+  }
 
