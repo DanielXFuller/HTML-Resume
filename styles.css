@@ -1,4 +1,8 @@
 header {
+    position: fixed;
+    top: 0;
+    width: 96%;
+    margin-top: 0px;
     text-align: center;
     background-color: rgb(81, 103, 124);
     color: white;
@@ -32,6 +36,7 @@ header > nav a:last-child {
 }
 
 body {
+    margin-top: 175px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -48,6 +53,7 @@ footer {
 }
 
 body > section {
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -60,6 +66,6 @@ img {
     height: 40%;
 }
 
-h2 {
-
+.grade {
+    font-weight: bold;
 }
