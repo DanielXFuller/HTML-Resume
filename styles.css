@@ -118,3 +118,60 @@ li h3, li h4, li p {
 .section2 h2 {
     margin-bottom: 0px;
 }
+
+@media screen and (min-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        margin-bottom: 10%;
+        margin-top: 15%;
+    }
+
+    body > section {
+        margin-left: 10%;
+        flex-direction: row;
+    }
+
+    body > p {
+        margin-left: 10%;
+    }
+
+    header {
+    height: 10%;
+    }
+
+    header > nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 10%;
+        height: 85%;
+        border-right: 1px solid black;
+        border-radius: 0;
+        position: fixed;
+        top: 10%;
+        padding-left: 10px;
+        margin-left: 0%;
+    }
+
+    header > nav a {
+    width: calc(100% / 4);
+    height: calc(100% / 4);
+    text-align: center;
+    border-right: none;
+    border-bottom: 1px solid black;
+    margin: 0 5px;
+    }
+
+    header > nav a:last-child {
+        border-bottom: none;
+    }
+
+    footer {
+    margin-top: 5%;
+    height: 5%;
+    width: 100vw;
+    }
+}
