@@ -134,7 +134,7 @@ li h3, li h4, li p {
     }
 
     body > p {
-        margin-left: 10%;
+        margin-left: 15%;
     }
 
     header {
@@ -167,6 +167,35 @@ li h3, li h4, li p {
 
     header > nav a:last-child {
         border-bottom: none;
+    }
+
+    .section2 {
+        margin-left: 12%;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    ol {
+        margin-left: 12%;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    h2 {
+        margin-left: 12%;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .section2 > .picture-container > h2 {
+        margin-left: 0;
+    }
+
+    header > h2 {
+        margin-left: 0;
     }
 
     footer {
